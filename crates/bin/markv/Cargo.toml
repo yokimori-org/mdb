@@ -1,0 +1,14 @@
+[package]
+name = "markv"
+description = "markv HTTP server binary"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+api.workspace = true
+shard.workspace = true
+beakid.workspace = true
+clap = { version = "4", features = ["derive"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "net"] }

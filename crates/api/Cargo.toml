@@ -1,0 +1,15 @@
+[package]
+name = "api"
+description = "markv HTTP API (axum)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+core.workspace = true
+shard.workspace = true
+beakid.workspace = true
+axum = "0.7"
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["net"] }

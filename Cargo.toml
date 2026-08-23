@@ -1,0 +1,31 @@
+[workspace]
+resolver = "2"
+# ponytail: explicit list — `crates/*` glob would also match the
+# manifest-less grouping dir `crates/bin`
+members = [
+    "crates/core",
+    "crates/storage",
+    "crates/search",
+    "crates/shard",
+    "crates/api",
+    "crates/bin/*",
+    "tests",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+# internal
+core = { path = "crates/core" }
+storage = { path = "crates/storage" }
+search = { path = "crates/search" }
+shard = { path = "crates/shard" }
+api = { path = "crates/api" }
+# server binary crate lives at crates/bin/markv (not imported by anyone)
+# external shared
+beakid = "=0.4.0"
+tempfile = "3"
+thiserror = "2"

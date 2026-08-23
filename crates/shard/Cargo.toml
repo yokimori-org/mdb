@@ -1,0 +1,12 @@
+[package]
+name = "shard"
+description = "markv sharding: shard identity, routing, engine assembly"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+core.workspace = true
+storage.workspace = true
+search.workspace = true

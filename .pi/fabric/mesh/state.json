@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "entries": {
+    "topology/hosts/07f25e974db0385b32e70c6847c871656f0131e585896bc707a9a0fadb6040f8": {
+      "key": "topology/hosts/07f25e974db0385b32e70c6847c871656f0131e585896bc707a9a0fadb6040f8",
+      "value": {
+        "format": 1,
+        "id": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "rootId": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "identity": {
+          "id": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+          "name": "main",
+          "kind": "main",
+          "sessionId": "01a02ecf-df89-7347-9058-53f5baaa63dc"
+        },
+        "startedAt": 1787499636775,
+        "updatedAt": 1787516908732,
+        "expiresAt": 1787516923732
+      },
+      "version": 3857,
+      "updatedAt": 1787516908732,
+      "updatedBy": {
+        "id": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a02ecf-df89-7347-9058-53f5baaa63dc"
+      }
+    },
+    "sessions/01a02ecf-df89-7347-9058-53f5baaa63dc": {
+      "key": "sessions/01a02ecf-df89-7347-9058-53f5baaa63dc",
+      "value": {
+        "id": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "name": "Peer 01a02ecf",
+        "kind": "peer",
+        "status": "running",
+        "runner": "pi",
+        "transport": "host",
+        "cwd": "/home/artem/yokimori/mdb",
+        "sessionId": "01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "model": "opencode-go/ox-alpha-free",
+        "thinking": "max",
+        "startedAt": 1787499636774,
+        "updatedAt": 1787516908732,
+        "pendingMessages": false,
+        "local": false
+      },
+      "version": 3857,
+      "updatedAt": 1787516908733,
+      "updatedBy": {
+        "id": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a02ecf-df89-7347-9058-53f5baaa63dc"
+      }
+    },
+    "topology/participants/07f25e974db0385b32e70c6847c871656f0131e585896bc707a9a0fadb6040f8": {
+      "key": "topology/participants/07f25e974db0385b32e70c6847c871656f0131e585896bc707a9a0fadb6040f8",
+      "value": {
+        "format": 1,
+        "id": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "kind": "root",
+        "rootId": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "ownerHostId": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "ownerIdentityId": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "name": "main",
+        "status": "running",
+        "runner": "pi",
+        "transport": "host",
+        "capabilities": [
+          "steer",
+          "followUp",
+          "fabric"
+        ],
+        "cwd": "/home/artem/yokimori/mdb",
+        "sessionId": "01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "model": "opencode-go/ox-alpha-free",
+        "thinking": "max",
+        "startedAt": 1787499636774,
+        "updatedAt": 1787516908732,
+        "pendingMessages": false,
+        "controlProtocol": "v1"
+      },
+      "version": 3857,
+      "updatedAt": 1787516908734,
+      "updatedBy": {
+        "id": "session:01a02ecf-df89-7347-9058-53f5baaa63dc",
+        "name": "main",
+        "kind": "main",
+        "sessionId": "01a02ecf-df89-7347-9058-53f5baaa63dc"
+      }
+    }
+  },
+  "versions": {
+    "topology/hosts/047d93d883ea9a366a49d911c75355a571dd0ca57e56f3f87a8dd01c9ba1b211": 843,
+    "sessions/01a02f18-61bb-71fc-919d-15fe00467b0a": 842,
+    "topology/participants/047d93d883ea9a366a49d911c75355a571dd0ca57e56f3f87a8dd01c9ba1b211": 843,
+    "topology/hosts/07f25e974db0385b32e70c6847c871656f0131e585896bc707a9a0fadb6040f8": 3857,
+    "sessions/01a02ecf-df89-7347-9058-53f5baaa63dc": 3857,
+    "topology/participants/07f25e974db0385b32e70c6847c871656f0131e585896bc707a9a0fadb6040f8": 3857
+  },
+  "tombstoneOrder": [
+    "sessions/01a02f18-61bb-71fc-919d-15fe00467b0a",
+    "topology/participants/047d93d883ea9a366a49d911c75355a571dd0ca57e56f3f87a8dd01c9ba1b211",
+    "topology/hosts/047d93d883ea9a366a49d911c75355a571dd0ca57e56f3f87a8dd01c9ba1b211"
+  ]
+}

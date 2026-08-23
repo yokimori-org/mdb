@@ -1,0 +1,11 @@
+[package]
+name = "markv-itests"
+publish = false
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+core.workspace = true
+shard.workspace = true
+tempfile = { workspace = true }

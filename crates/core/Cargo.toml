@@ -1,0 +1,16 @@
+[package]
+name = "core"
+description = "markv common data types"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+# ponytail: the lib is named `core`, so doctest harnesses resolve their
+# implicit `core::…` prelude items to *this* crate and fail to compile.
+# There are no doctests anyway.
+[lib]
+doctest = false
+
+[dependencies]
+thiserror.workspace = true
